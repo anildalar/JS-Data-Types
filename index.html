@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Data Type</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <style>
+
+    </style>
+    <script src="./js/script.js"></script>
+    <script>
+
+    </script>
+</head>
+<body>
+    <p class="myparagraph"></p>
+    <p class="myparagraph2"></p>
+    <h1 id="myheading"></h1>
+    <span data-sakshi="abc"></span>
+    <span id="xyz"></span>
+
+    <script src="./js/script2.js"></script>
+    <script>
+        // JS Single Line comment
+        /*
+            Multi Line Comment
+            You can write your documentation
+        */
+        // So we will create this name var to store the user first name
+        var name="Anil";
+
+        //I want to see the JS Output
+
+        //1. String 
+        console.log(typeof name);
+        console.log(typeof "Bhanu");
+        console.log(typeof 'Rakesh');
+        console.log(typeof `Rakesh`);
+
+        //user height
+        var x = 5.6; //2. Number
+        //You are writing code in Javascript
+
+        // I want to see the JS Output
+        alert(typeof x);
+
+        // Lets create a var to store the product quantitty
+        let y = 100;
+
+        // I want to see the JS Code with another technique
+
+        document.querySelector('p.myparagraph2').innerHTML = typeof y;
+
+        document.querySelector('span[data-sakshi="abc"]').innerHTML = "Good Morning";
+
+
+        //h1
+        //document.getElementById();
+        document.querySelector('span#xyz').innerHTML = "How are you";
+
+    </script>
+</body>
+</html>
