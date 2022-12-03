@@ -1,0 +1,38 @@
+JS Data Types
+
+Data =  Some information
+
+var name = "Anil";   //String
+var age = 30;   //Integer/Number
+
+var height = 5.6 //Float/Decimal
+
+  Left  =  Right
+
+
+Associtiviy of OPerator
+
+ =   
+
+Right to Left
+30
+
+
+
+Proper Indentation
+Proper Documentation
+
+
+
+Proper Optimation
+
+
+"Anil"  //String
+'Anil'  //String
+`Anil`  //String
+
+
+<start>Content Area</end>
+
+
+Content Area == innerHTML
